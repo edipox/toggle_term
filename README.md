@@ -1,5 +1,6 @@
 # toggle_term
 A simple script to allow you to have a pseudo drop down terminal
+![example](https://raw.githubusercontent.com/edipox/toggle_term/master/example.png)
 
 ## Dependencies
 This script depends on **xdotool** and **wmctrl**
@@ -32,7 +33,7 @@ switchboard keyboard
 Or search for **Keyboard** in slingshot launcher
 
 Go to **Custom** and add a new command with your prefered short cut
-
+![keyboard configuration](https://raw.githubusercontent.com/edipox/toggle_term/master/keyboard-config.png)
 
 ### Tip
 Place the terminal window at the top wide open to get something like the first screenshot
