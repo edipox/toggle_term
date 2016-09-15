@@ -2,7 +2,7 @@
 my_term=pantheon-terminal
 my_term_pid=$(xdotool search --class "$my_term" | tail -n1)
 if [[ -z "$my_term_pid"  ]]; then
-    pantheon-terminal &
+    $my_term &
 fi
 my_term_pid=$(xdotool search --class "$my_term" | tail -n1)
 focused_window_id=$(xdotool getwindowfocus)
