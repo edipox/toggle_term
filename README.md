@@ -13,7 +13,7 @@ Just download the script file or execute the following commands in the terminal:
 ```
 cd /tmp
 wget https://raw.githubusercontent.com/edipox/toggle_term/master/toggle_term
-sudo chmod +x toggle_term ; sudo mv toggle_term /usr/bin
+sudo chmod +x toggle_term ; sudo mv toggle_term /usr/local/bin
 ```
 
 ## Customize
