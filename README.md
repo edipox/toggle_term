@@ -11,9 +11,7 @@ sudo apt-get install wmctrl xdotool
 ## Installation
 Just download the script file or execute the following commands in the terminal:
 ```
-cd /tmp
-wget https://raw.githubusercontent.com/edipox/toggle_term/master/toggle_term
-sudo chmod +x toggle_term ; sudo mv toggle_term /usr/local/bin
+cd /tmp ; wget https://raw.githubusercontent.com/edipox/toggle_term/master/toggle_term ; sudo chmod +x toggle_term ; sudo mv toggle_term /usr/local/bin ; cd - 
 ```
 
 ## Customize
