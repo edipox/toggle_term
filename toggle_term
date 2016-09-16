@@ -1,14 +1,14 @@
 #!/bin/bash
 my_term=pantheon-terminal
-my_term_pid=$(xdotool search --class "$my_term" | tail -n1)
+my_term_pid=$(xdotool search --class "$my_term")
 if [[ -z "$my_term_pid"  ]]; then
     $my_term &
+else
+    my_term_pid=$(xdotool search --class "$my_term")
 fi
-my_term_pid=$(xdotool search --class "$my_term" | tail -n1)
 focused_window_id=$(xdotool getwindowfocus)
-if [ $my_term_pid -eq $focused_window_id ]; then
+if test "${my_term_pid#*$focused_window_id}" != "$my_term_pid" ; then
     xdotool windowminimize $(xdotool getactivewindow)
-fi
-if [ $my_term_pid -ne $focused_window_id ]; then
-    wmctrl -x -R $my_term
+else
+  wmctrl -x -R $my_term
 fi
