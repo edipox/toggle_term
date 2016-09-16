@@ -3,8 +3,6 @@ my_term=pantheon-terminal
 my_term_pid=$(xdotool search --class "$my_term")
 if [[ -z "$my_term_pid"  ]]; then
     $my_term &
-else
-    my_term_pid=$(xdotool search --class "$my_term")
 fi
 focused_window_id=$(xdotool getwindowfocus)
 if test "${my_term_pid#*$focused_window_id}" != "$my_term_pid" ; then
