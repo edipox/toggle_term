@@ -1,5 +1,6 @@
 # toggle_term
-A simple script to allow you to have a pseudo drop down terminal
+A simple script to transform your boring terminal into A DROP DOWN boring terminal Edit
+
 ![example](https://raw.githubusercontent.com/edipox/toggle_term/master/example.png)
 
 ## Dependencies
@@ -32,6 +33,12 @@ Or search for **Keyboard** in slingshot launcher
 
 Go to **Custom** and add a new command with your prefered short cut
 ![keyboard configuration](https://raw.githubusercontent.com/edipox/toggle_term/master/keyboard-config.png)
+
+### Tested desktop environments / terminals
+* gnome / gnome-terminal
+* xfce / terminal
+* pantheon (elementaryOS) / pantheon-terminal
+
 
 ### Tip
 Place the terminal window at the top wide open to get something like the first screenshot
