@@ -1,5 +1,5 @@
 # toggle_term
-A simple script to transform your boring terminal into A DROP DOWN boring terminal Edit
+A simple script to transform your boring terminal into A DROP DOWN boring terminal 
 
 ![example](https://raw.githubusercontent.com/edipox/toggle_term/master/example.png)
 
