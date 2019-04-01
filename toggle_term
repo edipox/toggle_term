@@ -1,5 +1,5 @@
 #!/bin/bash
-my_term=pantheon-terminal
+my_term=io.elememtary.terminal
 my_term_pid=$(xdotool search --class "$my_term")
 if [[ -z "$my_term_pid"  ]]; then
     $my_term &
