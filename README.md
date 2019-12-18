@@ -18,7 +18,7 @@ cd /tmp ; wget https://raw.githubusercontent.com/edipox/toggle_term/master/toggl
 ## Customize
 You can change the terminal app by editing the script file
 ```
-my_term=io.elememtary.terminal
+my_term=io.elementary.terminal
 ```
 ## Keybinding
 
@@ -37,7 +37,7 @@ Go to **Custom** and add a new command with your prefered short cut
 ### Tested desktop environments / terminals
 * gnome / gnome-terminal
 * xfce / terminal
-* pantheon (elementaryOS) / `io.elememtary.terminal`
+* pantheon (elementaryOS) / `io.elementary.terminal`
 
 
 ### Tip
